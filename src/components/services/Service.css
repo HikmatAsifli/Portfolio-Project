@@ -1,0 +1,50 @@
+.service {
+  padding-top: 130px;
+}
+.section-heading {
+  margin-bottom: 40px;
+  h5 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #55e6a5 !important;
+  }
+  h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #ffffff;
+  }
+}
+.service-card {
+    padding: 0px 40px 40px 40px;
+    position: relative;
+    border: 3px solid #191919;
+    margin-top: 62px;
+  span {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: -46px;
+    width: 100px;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+}

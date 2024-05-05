@@ -1,0 +1,43 @@
+.testimonial {
+  padding-top: 115px;
+}
+.testimonial-card {
+  padding: 30px 90px 30px 30px;
+  border: 2px solid #333f4d;
+  position: relative;
+  margin: 65px 12px 0 12px;
+
+  .img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    right: 50px;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+  .rating{
+    color: #ffba08;
+  }
+  .description{
+    margin-top: 20px;
+    position: relative;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .description::after {
+    position: absolute;
+    content: "";
+    background: url(../../assets/quot.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 35px;
+    top: 5px;
+    right: -65px;
+}
+}
