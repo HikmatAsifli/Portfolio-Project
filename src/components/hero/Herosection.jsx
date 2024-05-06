@@ -1,6 +1,6 @@
-import './Herosection.css'
-import banner from "../../assets/banner.jpg"
-import banner_shape from "../../assets/banner_shape.png"
+import "./Herosection.css";
+import banner from "../../assets/banner.jpg";
+import banner_shape from "../../assets/banner_shape.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const HeroSection = () => {
@@ -11,7 +11,7 @@ const HeroSection = () => {
           <div className="row justify-content-between">
             <div className="col-xl-6 col-lg-8">
               <div className="hero-section-heading">
-                <h1>Hi, I`m Hikmat!
+                <h1>Hi, I'm Hikmat!
                   <br />
                   <span>Pentester and <br />Front-end Developer</span>
                 </h1>
@@ -33,7 +33,7 @@ const HeroSection = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;

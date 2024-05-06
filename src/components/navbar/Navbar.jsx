@@ -8,6 +8,7 @@ export default function Navbar() {
 
     const toggleOffcanvas = () => {
         setIsOffcanvasOpen(!isOffcanvasOpen);
+        document.body.classList.toggle('no-scroll', isOffcanvasOpen);
     };
 
     return (
@@ -17,11 +18,10 @@ export default function Navbar() {
                     <a href="#" className="navbar-brand">
                         <img src={logo} alt="Hikmat" className="img-fluid w-100" />
                     </a>
-                    <button className="navbar-toggler" type="button">
-                        <i className="fa-solid fa-bars"></i>
-                        <i className="fa-regular fa-circle-xmark"></i>
+                    <button className="navbar-toggler" type="button" onClick={toggleOffcanvas}>
+                        <i className={`fa-solid ${isOffcanvasOpen ? 'fa-circle-xmark' : 'fa-bars'}`}></i>
                     </button>
-                    <div className="collapse navbar-collapse">
+                    <div className={`collapse navbar-collapse ${isOffcanvasOpen ? 'show' : ''}`}>
                         <ul className="navbar-nav m-auto">
                             <li className="nav-item">
                                 <a href="#" className="nav-link active">
@@ -70,6 +70,7 @@ export default function Navbar() {
                                     CONTACT
                                 </a>
                             </li>
+
                         </ul>
                         <span className="toggle-icon c-pointer" onClick={toggleOffcanvas}>
                             <i className="fa-solid fa-bars" ></i>

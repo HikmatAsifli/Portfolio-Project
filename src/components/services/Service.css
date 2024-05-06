@@ -1,6 +1,7 @@
 .service {
   padding-top: 130px;
 }
+
 .section-heading {
   margin-bottom: 40px;
   h5 {
@@ -20,31 +21,29 @@
     color: #ffffff;
   }
 }
+
 .service-card {
-    padding: 0px 40px 40px 40px;
-    position: relative;
-    border: 3px solid #191919;
-    margin-top: 62px;
-  span {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    position: relative;
-    top: -46px;
-    width: 100px;
-  }
-  h3 {
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-  p {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 28px;
-  }
+  padding: 40px;
+  position: relative;
+  border: 3px solid #191919;
+  margin-top: 62px;
+  text-align: center;
+}
+
+.service-card span svg {
+  width: 100px;
+}
+
+.service-card h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.service-card p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
 }

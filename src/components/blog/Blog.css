@@ -91,3 +91,9 @@
     -o-transform: scale(1.05);
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .common-btn {
+    display: none;
+  }
+}

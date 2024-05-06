@@ -1,61 +1,66 @@
 .skills {
   background-color: #09101a;
-  padding-bottom: 70px !important;
-  padding-top: 115px !important;
+  padding-bottom: 70px;
+  padding-top: 115px;
 }
+
 .single-skills {
   margin-bottom: 80px;
+}
 
-  span {
-    font-size: 18px;
-    display: inline-block;
-    border: 1px solid #55e6a5;
-    padding: 11px 24px;
-    color: #55e6a5;
-  }
-  h3 {
-    font-size: 30px;
-    font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-  p {
-    font-size: 16px !important;
-    font-weight: 500 !important;
-  }
+.single-skills span {
+  font-size: 18px;
+  display: inline-block;
+  border: 1px solid #55e6a5;
+  padding: 11px 24px;
+  color: #55e6a5;
+}
+
+.single-skills h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.single-skills p {
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .team-skills {
   background: #151c25;
   margin-bottom: 50px;
-
-  p {
-    padding-left: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: #ffffff;
-  }
 }
+
+.team-skills p {
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #ffffff;
+}
+
 .barfiller {
-    width: 100%;
-    height: 6px;
-    background: 0 0;
-    border: none;
-    position: relative;
+  width: 100%;
+  height: 6px;
+  background: none;
+  border: none;
+  position: relative;
 }
 
 .barfiller .tip {
-    margin-top: -33px;
-    position: absolute;
-    z-index: 2;
-    font-size: 14px;
-    font-weight: 400;
-    color: #ffffff;
+  margin-top: -33px;
+  position: absolute;
+  z-index: 2;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
 }
+
 .barfiller .fill {
-    background: #55e6a5 !important;
-    display: block;
-    width: 0;
-    height: 100%;
-    z-index: 1;
+  background: #55e6a5;
+  display: block;
+  width: 0;
+  height: 100%;
+  z-index: 1;
 }

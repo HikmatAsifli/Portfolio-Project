@@ -105,3 +105,58 @@
   -ms-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
 }
+
+@media screen and (max-width: 992px) {
+  .main-menu .navbar-collapse {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: #141c27;
+    transition: left 0.3s ease;
+  }
+  .main-menu .navbar-collapse.show {
+    left: 0;
+  }
+  .main-menu .navbar-toggler {
+    display: block;
+    position: relative;
+    z-index: 999;
+    background: transparent;
+    border: none;
+  }
+  .main-menu .navbar-toggler i {
+    color: #fff;
+    font-size: 24px;
+  }
+  .main-menu .navbar-nav {
+    margin-top: 80px;
+    text-align: center;
+  }
+  .main-menu .navbar-nav .nav-item {
+    margin-top: 20px;
+    position: relative;
+  }
+  .main-menu .navbar-nav .nav-item .nav-link {
+    padding: 10px 0;
+  }
+  .main-menu .navbar-nav .nav-item .droap-menu {
+    display: none;
+    position: static;
+    max-height: none;
+    overflow: visible;
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+  }
+  .main-menu .navbar-nav .nav-item .droap-menu li a {
+    padding: 10px 20px;
+    border-bottom: none;
+  }
+  .main-menu .toggle-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}
