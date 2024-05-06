@@ -1,0 +1,93 @@
+.blog {
+  padding-top: 125px;
+  padding-bottom: 40px;
+  position: relative;
+
+  .section-heading {
+    h5 {
+      text-align: left;
+    }
+    h2 {
+      text-align: left;
+    }
+  }
+  .common-btn {
+    position: absolute;
+    top: 200px;
+    right: 185px;
+    width: auto;
+  }
+}
+.single-blog {
+  margin-top: 25px;
+
+  .blog-img {
+    height: 380px;
+    overflow: hidden;
+    width: 100%;
+
+    img {
+      transition: all linear 0.3s;
+    }
+  }
+  .blog-text {
+    width: 90%;
+    padding: 30px;
+    background: #09101a;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: -76px;
+    transform: translateX(-50%);
+
+    span {
+      background: #55e6a5;
+      color: #02050a;
+      font-size: 16px;
+      padding: 13px 17px;
+      width: 200px;
+      font-weight: 500;
+      display: inline-block;
+      position: absolute;
+      top: -25px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+
+      li {
+        color: #fff;
+        i {
+          color: #55e6a5;
+          margin-right: 5px;
+        }
+      }
+    }
+    a {
+      display: block;
+      font-size: 20px;
+      font-weight: 600;
+      transition: all linear 0.3s;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      -ms-transition: all linear 0.3s;
+      -o-transition: all linear 0.3s;
+      &:hover {
+        color: #55e6a5;
+      }
+    }
+  }
+  &:hover img {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+  }
+}

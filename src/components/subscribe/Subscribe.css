@@ -1,0 +1,39 @@
+.subscribe {
+  background-image: url(../../assets/subscribe.jpg);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.subscribe-overlay {
+  background-color: #000000e3;
+  padding-bottom: 120px;
+  padding-top: 115px;
+}
+.subscribe-text {
+  h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+  }
+  form {
+    position: relative;
+
+    input {
+      border: 1px solid #55e6a5;
+      padding: 27px 25px;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      background: #131313;
+    }
+    button {
+      border: none;
+      position: absolute;
+      top: 8px;
+      right: 8px;
+    }
+  }
+}
