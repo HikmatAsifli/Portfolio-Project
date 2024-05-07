@@ -93,10 +93,6 @@
     flex-direction: column-reverse;
     ul{
       gap: 10px;
-      li{
-        display: flex;
-        flex-direction: column;
-      }
     }
   }
 }

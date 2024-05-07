@@ -70,6 +70,11 @@
   color: #000 !important;
   font-weight: 500;
   transition: all 0.3s linear 0s;
+
+  &:hover{
+    background-color: #141c27;
+    color: #fff !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
