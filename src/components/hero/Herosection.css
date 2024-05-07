@@ -79,6 +79,9 @@
       font-size: 25px;
     }
   }
+  .hero-section-heading ul li{
+    margin-bottom: 20px;
+  }
   .hero-section-heading p {
     font-size: 16px;
   }
@@ -88,5 +91,6 @@
   }
   .hero-section-img {
     margin-top: 30px;
+    display: none;
   }
 }

@@ -79,8 +79,24 @@
   opacity: 0.5;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .footer-content {
     margin-bottom: 30px;
+  }
+  .footer-content .icon{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+  }
+  .footer-copyright{
+    width: 100%;
+    flex-direction: column-reverse;
+    ul{
+      gap: 10px;
+      li{
+        display: flex;
+        flex-direction: column;
+      }
+    }
   }
 }
